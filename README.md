@@ -1,5 +1,6 @@
 # Brainiac
 Version: 1.0.0
+
 Creator: Krishna Nischal Bharatula
 
 A Discord Bot specifically developed for the share-market.
