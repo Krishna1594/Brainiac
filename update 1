@@ -1,0 +1,14 @@
+import discord
+import os
+import requests
+import json
+
+
+@client.event
+async def on_member_join(member):
+    await member.create_dm()
+    await member.dm_channel.send(
+        f'Hey {member.name}, welcome to my Discord server!'
+    )
+    
+client.run('YOUR TOKEN')
